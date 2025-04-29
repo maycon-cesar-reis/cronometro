@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #00ff00;
+}
+
+.invertido {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.display {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 30rem;
+    display: block;
+}
+
+.display.edicao {
+    display: none;
+}
+
+.campo {
+    padding-bottom: 2rem;
+    display: none;
+}
+
+.campo.edicao {
+    display: block;
+}
+
+#campo {
+    border: none;
+    font-size: 5rem;
+    width: 30rem;
+    border-radius: 5rem;
+    padding: 0 5rem;
+}
+
+.acoes {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.acoes div {
+    font-size: 1.2rem;
+    margin: 1rem;
+    cursor: pointer;
+    padding: .5rem;
+    display: none;
+}
+
+.acoes div.ativa {
+    display: block;
+}
+
+.acoes div:hover {
+    background-color: #00ff00;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 5rem;
+}
