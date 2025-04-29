@@ -37,7 +37,7 @@ function atualizaAcoes(acao) {
 function inicia(display) {
     atualizaAcoes('inicia');
     document.body.classList.remove('invertido');
-    estado = setInterval(() => decrementa(display), 100);
+    estado = setInterval(() => decrementa(display), 1000);
 }
 
 function pausa() {
